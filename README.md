@@ -7,9 +7,9 @@ This project is a **Go-based monitoring tool** that checks the status and perfor
 <!-- STATUS_START -->
 | Name | Status | Response (ms) |
 |------|--------|---------------|
-| Personal Website | 🟢 UP | 1119 |
-| Commute Rentals | 🟢 UP | 1230 |
-| Rental Listing API | 🟢 UP | 4686 |
+| Rental Listing API | [Link](https://giyykb323bu6rka6smjzr64ece0gdwbe.lambda-url.us-east-1.on.aws/) | 🟢 UP | 702ms |
+| Personal Website | [Link](https://isaacabell.com) | 🟢 UP | 903ms |
+| Commute Rentals | [Link](https://isaacabell.com/find-commute-rentals-fe/) | 🟢 UP | 1073ms |
 <!-- STATUS_END -->
 
 ## Features

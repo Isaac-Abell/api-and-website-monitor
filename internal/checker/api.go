@@ -33,6 +33,7 @@ func CheckAPI(name, url string, content map[string]interface{}) CheckResult {
 
     return CheckResult{
         Name:       name,
+        URL:        url,
         Status:     status,
         ResponseMS: duration,
     }

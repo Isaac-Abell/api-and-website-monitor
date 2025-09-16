@@ -39,6 +39,7 @@ func CheckWebsite(name, url string) CheckResult {
 
     return CheckResult{
         Name:       name,
+        URL:        url,
         Status:     status,
         ResponseMS: duration,
     }

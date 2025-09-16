@@ -13,6 +13,7 @@ type API struct {
 
 type CheckResult struct {
     Name       string
+    URL        string
     Status     string
     ResponseMS int
 }

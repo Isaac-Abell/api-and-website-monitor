@@ -20,7 +20,7 @@ func UpdateReadme(results []checker.CheckResult, path string) error {
         emoji := "🟢"
         if r.Status == "WARN" { emoji = "🟡" }
         if r.Status == "DOWN" { emoji = "🔴" }
-        table += fmt.Sprintf("| %s | %s %s | %d |\n", r.Name, emoji, r.Status, r.ResponseMS)
+        table += fmt.Sprintf("| %s | [%s](%s) | %s %s | %dms |\n", r.Name, "Link", r.URL, emoji, r.Status, r.ResponseMS)
     }
 
     re := regexp.MustCompile(`(?s)<!-- STATUS_START -->.*?<!-- STATUS_END -->`)

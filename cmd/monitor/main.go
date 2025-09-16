@@ -12,7 +12,7 @@ func main() {
     results := checker.RunChecks(cfg)
 
     for _, r := range results {
-        fmt.Printf("%s: %s (%dms)\n", r.Name, r.Status, r.ResponseMS)
+        fmt.Printf("[%s] %s (%s) - %dms\n", r.Status, r.Name, r.URL, r.ResponseMS)
     }
 
     err := reporter.UpdateReadme(results, "README.md")
