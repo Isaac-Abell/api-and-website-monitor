@@ -3,6 +3,8 @@ websites:
     url: https://isaacabell.com
   - name: Commute Rentals
     url: https://isaacabell.com/find-commute-rentals-fe/
+  - name: Algo Visualizer
+    url: https://isaacabell.com/algo-visualizer/
 apis:
   - name: Rental Listing API
     url: https://giyykb323bu6rka6smjzr64ece0gdwbe.lambda-url.us-east-1.on.aws/
