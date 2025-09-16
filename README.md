@@ -5,11 +5,11 @@ This project is a **Go-based monitoring tool** that checks the status and perfor
 ---
 
 <!-- STATUS_START -->
-| Name | Status | Response (ms) |
-|------|--------|---------------|
-| Rental Listing API | [Link](https://giyykb323bu6rka6smjzr64ece0gdwbe.lambda-url.us-east-1.on.aws/) | 🟢 UP | 702ms |
-| Personal Website | [Link](https://isaacabell.com) | 🟢 UP | 903ms |
-| Commute Rentals | [Link](https://isaacabell.com/find-commute-rentals-fe/) | 🟢 UP | 1073ms |
+| Name | Link | Status | Response (ms) |
+|------|------|--------|---------------|
+| Personal Website | [Link](https://isaacabell.com) | 🟢 UP | 1095ms |
+| Commute Rentals | [Link](https://isaacabell.com/find-commute-rentals-fe/) | 🟢 UP | 1112ms |
+| Rental Listing API | [Link](https://giyykb323bu6rka6smjzr64ece0gdwbe.lambda-url.us-east-1.on.aws/) | 🟢 UP | 2287ms |
 <!-- STATUS_END -->
 
 ## Features

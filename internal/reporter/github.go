@@ -15,7 +15,7 @@ func UpdateReadme(results []checker.CheckResult, path string) error {
     }
     content := string(contentBytes)
 
-    table := "| Name | Status | Response (ms) |\n|------|--------|---------------|\n"
+    table := "| Name | Link | Status | Response (ms) |\n|------|------|--------|---------------|\n"
     for _, r := range results {
         emoji := "🟢"
         if r.Status == "WARN" { emoji = "🟡" }
