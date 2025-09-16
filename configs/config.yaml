@@ -1,0 +1,10 @@
+websites:
+  - name: Personal Website
+    url: https://isaacabell.com
+  - name: Commute Rentals
+    url: https://isaacabell.com/find-commute-rentals-fe/
+apis:
+  - name: Rental Listing API
+    url: https://giyykb323bu6rka6smjzr64ece0gdwbe.lambda-url.us-east-1.on.aws/
+    content:
+      user_address: 1600 Amphitheatre Parkway in Mountain View, California

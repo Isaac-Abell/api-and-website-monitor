@@ -1,0 +1,19 @@
+name: Weekly API Monitor
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday at 9:00 UTC
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+      - name: Build
+        run: go build -o monitor ./cmd/monitor
+      - name: Run Monitor
+        run: ./monitor
